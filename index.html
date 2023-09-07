@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <!-- roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <header class="fixed top-0 left-0 w-full bg-abuMuda z-[9999]">
+        <div class="container">
+            <div class="w-full px-4">
+                <nav class="flex items-center justify-between">
+                    <div class="py-0 z-[60]">
+                        <a href="#">
+                            <img src="img/logo.png" alt="" class="w-20 md:w-24">
+                        </a>
+                    </div>
+                    <div class="block py-4 md:hidden">
+                        <button class="hamburger hamburger--elastic-r" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                    <ul class="hidden md:flex md:space-x-20 md:py-4">
+                        <a href="#home" class="text-base font-normal tracking-wider text-color">Home</a>
+                        <a href="#about" class="text-base font-normal tracking-wider text-color">About</a>
+                        <a href="#services" class="text-base font-normal tracking-wider text-color">Our Services</a>
+                        <a href="#servicesMap" class="text-base font-normal tracking-wider text-color">Services Map</a>
+                        <a href="#contact" class="text-base font-normal tracking-wider text-color">Contact Us</a>
+                    </ul>
+                    <div class="hidden py-4 md:block">
+                        <button type="button"
+                            class="px-[30px] py-[10px] border-2 border-pingMuda rounded-full text-color">
+                            Sign In
+                        </button>
+                    </div>
+                    <nav id="menu"
+                        class="fixed bottom-0 left-0 z-50 w-2/3 h-screen transition duration-300 ease-in-out -translate-x-full shadow-md bg-abuMuda/30 backdrop-blur md:hidden">
+                        <ul class="flex flex-col px-4 md:px-6 space-y-4 pt-[37%]">
+                            <a href="#home" class="text-base font-normal tracking-wider text-color">Home</a>
+                            <a href="#about" class="text-base font-normal tracking-wider text-color">About</a>
+                            <a href="#services" class="text-base font-normal tracking-wider text-color">Our Services</a>
+                            <a href="#servicesMap" class="text-base font-normal tracking-wider text-color">Services
+                                Map</a>
+                            <a href="#contact" class="text-base font-normal tracking-wider text-color">Contact Us</a>
+                        </ul>
+                        <div class="absolute flex w-full px-4 bottom-5">
+                            <button type="button"
+                                class="px-[30px] w-full py-[10px] border-2 border-pingMuda rounded-full text-color">
+                                Sign In
+                            </button>
+                        </div>
+                    </nav>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- navbar -->
+
+    <!-- home -->
+    <section id="home" class="pt-24 pb-10 md:pt-36 md:pb-12">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <div class="flex flex-col">
+                        <h1 class="mb-12 text-3xl font-extrabold capitalize md:text-5xl">
+                            Providing industry leading solution for
+                        </h1>
+                        <p class="w-full mb-12 text-base font-normal md:w-11/12 text-color">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur expedita tempora, amet,
+                            dolorem velit optio esse possimus aliquid sequi quidem quas harum quam eum temporibus.
+                            Suscipit minus corrupti quasi ipsam?
+                        </p>
+                        <a href="#" class="btn w-[191px] flex h-[43px] gap-6 hover:shadow capitalize">
+                            learn more
+                            <img src="img/Arrow 1.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="relative flex justify-end mt-10 md:mt-0">
+                        <img src="img/Ellipse 1.svg" alt="" class="absolute left-0 -z-10 top-14">
+                        <img src="img/bro.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home -->
+
+    <!-- about -->
+    <section id="about" class="pt-[7rem] pb-14">
+        <div class="container">
+            <div class="flex items-center justify-center w-full px-4">
+                <div
+                    class="md:flex flex flex-col md:flex-row gap-10 bg-[#C4D4FF] rounded-full pt-6 pb-10 px-6 w-11/12 md:h-[400px]">
+                    <div
+                        class="bg-white flex items-center py-6 px-10 md:rounded-tl-full md:rounded-bl-full md:w-[50%] md:rounded-tr-none rounded-tr-full rounded-tl-full h-auto w-auto text-center md:text-left">
+                        <h2 class="text-2xl font-bold text-center capitalize md:text-3xl text-biru">about
+                            <br>Company
+                        </h2>
+                    </div>
+                    <div class="flex items-center justify-center w-full">
+                        <p class="w-11/12 text-center md:text-left">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione facere, aliquam aut
+                            repellat, pariatur commodi dolor ad voluptatum alias nesciunt deleniti labore sit
+                            repudiandae! Error magni ducimus est commodi aliquam?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about -->
+
+    <!-- services -->
+    <section id="services" class="pt-24 pb-14">
+        <div class="container">
+            <div class="w-full px-4">
+                <h2 class="text-2xl font-bold text-center md:text-3xl text-biru">Our Services</h2>
+                <div
+                    class="grid grid-cols-1 mt-10 md:mt-16 md:grid-cols-2 bg-[#FFF5FF] place-content-center place-items-center py-14 px-10 rounded-t-full md:rounded-r-full md:rounded-tl-none">
+                    <div class="flex flex-col space-y-[51px]">
+                        <h3 class="text-xl font-bold md:text-2xl text-secBiru">Non-IT enterprises</h3>
+                        <p class="text-sm font-medium md:text-base text-color w-auto md:w-[526.96px]">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, neque perferendis.
+                            Perspiciatis eos optio nulla illum quidem odit quia itaque!
+                        </p>
+                        <a href="#"
+                            class="w-[171px] md:w-[191px] h-[43px] flex items-center text-sm text-biru gap-2 md:gap-[10px] md:text-base px-[30px] py-[10px] border-2 border-biru rounded-full font-medium hover:shadow-md">
+                            Learn More
+                            <img src="img/Arrow 1.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="mt-14 md:mt-0">
+                        <img src="img/services.svg" alt="">
+                    </div>
+                </div>
+
+                <div
+                    class="grid grid-cols-1 mt-10 md:mt-16 md:grid-cols-2 bg-[#F5F8FF] place-content-center place-items-center py-14 px-10 rounded-b-full md:rounded-l-full md:rounded-br-none">
+                    <div class="flex flex-col space-y-[51px] order-2">
+                        <h3 class="text-xl font-bold md:text-2xl text-secBiru">Software product companies</h3>
+                        <p class="w-auto text-sm font-medium md:text-base text-color md:w-[526.96px]">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti adipisci dolorem error eum
+                            eligendi doloremque porro omnis delectus recusandae minus.
+                        </p>
+                        <a href="#"
+                            class="w-[171px] md:w-[191px] h-[43px] flex items-center text-sm text-biru gap-2 md:gap-[10px] md:text-base px-[30px] py-[10px] border-2 border-biru rounded-full font-medium hover:shadow-md">
+                            Learn More
+                            <img src="img/Arrow 1.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="order-1 mt-14 md:mt-0">
+                        <img src="img/services2.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services -->
+
+    <!-- services map -->
+    <section id="servicesMap" class="pt-24 pb-14">
+        <div class="container">
+            <div class="w-full px-4">
+                <h2 class="text-2xl font-bold text-center md:text-3xl text-biru">Services Map</h2>
+                <div class="grid grid-cols-1 px-8 py-16 mt-10 md:grid-cols-2 bg-abuMuda">
+                    <div class="flex items-center justify-center">
+                        <h2 class="text-xl font-semibold md:text-2xl text-biru">IT consulting</h2>
+                    </div>
+                    <ul class="flex flex-col mt-6 space-y-1 md:mt-0">
+                        <li class="font-medium list-disc text-colorServices">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, cum officia! Deserunt
+                            error quidem sequi cum quisquam reiciendis!
+                        </li>
+                        <li class="font-medium list-disc text-colorServices">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores obcaecati ut accusantium
+                            vitae itaque repudiandae esse, doloremque at.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grid grid-cols-1 px-8 py-16 mt-10 md:grid-cols-2 bg-abuMuda">
+                    <div class="flex items-center justify-center">
+                        <h2 class="text-xl font-semibold md:text-2xl text-biru">Software Development</h2>
+                    </div>
+                    <ul class="flex flex-col mt-6 space-y-1 md:mt-0">
+                        <li class="font-medium list-disc text-colorServices">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, cum officia! Deserunt
+                            error quidem sequi cum quisquam reiciendis!
+                        </li>
+                        <li class="font-medium list-disc text-colorServices">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores obcaecati ut accusantium
+                            vitae itaque repudiandae esse, doloremque at.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grid grid-cols-1 px-8 py-16 mt-10 md:grid-cols-2 bg-abuMuda">
+                    <div class="flex items-center justify-center">
+                        <h2 class="text-xl font-semibold md:text-2xl text-biru">Testing and QA</h2>
+                    </div>
+                    <ul class="flex flex-col mt-6 space-y-1 md:mt-0">
+                        <li class="font-medium list-disc text-colorServices">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, cum officia! Deserunt
+                            error quidem sequi cum quisquam reiciendis!
+                        </li>
+                        <li class="font-medium list-disc text-colorServices">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores obcaecati ut accusantium
+                            vitae itaque repudiandae esse, doloremque at.
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex items-center justify-center w-full mt-7">
+                    <a href="#" class="text-base font-semibold underline underline-offset-2 text-biru">View All
+                        Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services map -->
+
+    <!-- contact -->
+    <section id="contact" class="pt-24">
+        <div class="container">
+            <div class="w-full px-4 bg-[#EFF7FF] pt-14 pb-14">
+                <h2 class="mb-10 text-2xl font-bold text-center md:text-3xl text-biru">Contact</h2>
+                <form action="">
+                    <div class="relative z-20 w-full md:mx-auto md:w-2/3">
+                        <img src="img/bulatGede.svg" alt=""
+                            class="absolute -z-10 -top-10 -left-10 md:-top-32 md:-left-52">
+                        <img src="img/bulatKecil.svg" alt=""
+                            class="absolute top-40 -z-10 left-28 md:-left-20 md:top-20">
+                        <div class="w-full mb-8 md:px-4">
+                            <input type="text" placeholder="Full Name"
+                                class="w-full border-none rounded outline-none focus:ring-1 h-[45px] md:h-[50px] px-4 placeholder:text-[#BBBBBB] bg-white placeholder:text-sm md:placeholder:text-base">
+                        </div>
+                        <div class="w-full mb-8 md:px-4">
+                            <input type="email" placeholder="Email Address"
+                                class="w-full border-none rounded outline-none focus:ring-1 h-[45px] md:h-[50px] px-4 placeholder:text-[#BBBBBB] bg-white placeholder:text-sm md:placeholder:text-base">
+                        </div>
+                        <div class="w-full mb-8 md:px-4">
+                            <input type="text" placeholder="Phone Number"
+                                class="w-full border-none rounded outline-none focus:ring-1 h-[45px] md:h-[50px] px-4 placeholder:text-[#BBBBBB] bg-white placeholder:text-sm md:placeholder:text-base">
+                        </div>
+                        <div class="w-full mb-8 md:px-4">
+                            <textarea
+                                class="w-full px-4 border-none rounded outline-none focus:ring-1 placeholder:text-[#BBBBBB] bg-white py-3 h-[200px] placeholder:text-sm md:placeholder:text-base resize-none"
+                                placeholder="How anything to say?"></textarea>
+                        </div>
+                        <div class="flex justify-center w-full">
+                            <button type="submit"
+                                class="bg-[#0048FF] text-white px-[50px] rounded text-base md:px-[100px] py-[10px]">Send</button>
+                        </div>
+                        <img src="img/bulatKecil.svg" alt=""
+                            class="absolute -z-10 bottom-40 right-40 md:bottom-32 md:-right-20">
+                        <img src="img/bulatGede.svg" alt=""
+                            class="absolute right-0 -z-10 -bottom-10 md:-bottom-14 md:-right-[14rem]">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+
+    <!-- footer -->
+    <footer class="pt-14">
+        <div class="container">
+            <div class="w-full px-4 py-10 bg-color">
+                <div class="grid items-center grid-cols-1 space-y-5 md:grid-cols-3 place-content-center md:space-y-0">
+                    <h2 class="text-lg text-center text-white md:text-left">Company Name</h2>
+                    <p class="order-3 text-sm text-center text-white md:order-2">
+                        Company, 2023 &copy; All Right Reserved
+                    </p>
+                    <div class="flex justify-center order-2 space-x-4 md:justify-end md:order-3">
+                        <a href="#"
+                            class="px-3 py-2 text-xl text-white transition duration-300 ease-in border border-white rounded-full hover:-translate-y-2">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#"
+                            class="px-3 py-2 text-xl text-white transition duration-300 ease-in border border-white rounded-full hover:-translate-y-2">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                        <a href="#"
+                            class="px-3 py-2 text-xl text-white transition duration-300 ease-in border border-white rounded-full hover:-translate-y-2">
+                            <i class="ri-facebook-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+
+    <!-- my script -->
+    <script src="main.js"></script>
+</body>
+
+</html>
